@@ -1,0 +1,27 @@
+# Fichiers système macOS
+.DS_Store
+._*
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers temporaires éditeur/IDE
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Fichiers spécifiques Python (si vous traitez les données avec)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+venv/
+env/
+
+# Potentiellement le fichier Excel original si vous ne commitez que le CSV/JSON traité
+# *.xlsx
